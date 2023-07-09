@@ -1,0 +1,37 @@
+* {
+    font-family: serif, 'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    margin: auto;
+
+    background: #62c9de;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8cf3ff, #62dade);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8ce8ff, #DE6262);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.infocard {
+    align-items: center;
+    margin-top: 200px;
+
+}
+
+.user-div {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+}
+
+@media (max-width: 1500px) {
+    .user-div {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+    }
+}
