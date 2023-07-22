@@ -13,21 +13,6 @@ body {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-@keyframes slide {
-    0% {
-        transform: translateX(0);
-    }
-
-    50% {
-        transform: translateX(100px);
-        /* Adjust the distance you want the element to move */
-    }
-
-    100% {
-        transform: translateX(0);
-    }
-}
-
 .infocard:hover {
     transform: scale(1.1);
     /* Scale up the card on hover */
